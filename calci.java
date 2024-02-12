@@ -17,7 +17,7 @@ class calci{
      public static void main (String[] args){
     Float a;
     Float b;
-    Scanner sc =new Scanner(System.in);
+    try(Scanner sc =new Scanner(System.in));
     System.out.println("Enter the 1st number: ");
     a=sc.nextFloat();
     System.out.println("Enter the 2nd number: ");
