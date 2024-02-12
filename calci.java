@@ -14,9 +14,7 @@ class calci{
    Float div(Float a, Float b){
     return a/b;
    }
-}
-class Main{
-  public static void main (String[] args){
+     public static void main (String[] args){
     Float a;
     Float b;
     Scanner sc =new Scanner(System.in);
@@ -33,6 +31,8 @@ class Main{
     System.out.println("division of 2 numbers: "+c.div(a,b));
     
 
-}
+
 
 }
+}
+
