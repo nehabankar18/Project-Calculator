@@ -17,11 +17,12 @@ class calci{
      public static void main (String[] args){
     Float a;
     Float b;
-    try(Scanner sc =new Scanner(System.in));
+    try(Scanner sc =new Scanner(System.in));{
     System.out.println("Enter the 1st number: ");
     a=sc.nextFloat();
     System.out.println("Enter the 2nd number: ");
     b=sc.nextFloat();
+    }
         calci c = new calci();
     System.out.println("Addition of 2 numbers: "+c.add(a,b));
     System.out.println("substraction of 2 numbers: "+c.sub(a,b));
